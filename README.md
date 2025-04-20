@@ -9,7 +9,7 @@ Este sistema detecta emociones humanas usando una webcam, mostrando el análisis
 ## Requisitos
 
 - Python 3.12
-- Visual Studio 2022 con C++ Build Tools (para dlib y cmake)
+- Visual Studio 2022 con C++ Build Tools (para dlib y cmake). Instalamos las dependencias C++, para ello tendremos que descargar el instalador de Visual Studio 2022, que es la última versión por ahora. Nos dirigimos a “Community” y lo descargamos. Seleccionamos el ejecutable y después de un par de procesos podremos ver la siguiente ventanita. De esta vamos a bajar un poquito y elegimos “Desarrollo para escritorio con C++” y luego seleccionamos instalar. 
 - Descargar e instalar Cmake desde: https://cmake.org/download/
 - Librerías: ver `requirements.txt`
 
@@ -23,4 +23,4 @@ Este sistema detecta emociones humanas usando una webcam, mostrando el análisis
 git clone https://github.com/MaycolPGR-aduch/DetectorEmociones.git
 cd DetectorEmociones
 pip install -r requirements.txt
-python GUI.py
+python IntegratedGUI.py
