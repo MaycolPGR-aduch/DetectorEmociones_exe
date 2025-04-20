@@ -10,6 +10,7 @@ Este sistema detecta emociones humanas usando una webcam, mostrando el análisis
 
 - Python 3.12
 - Visual Studio 2022 con C++ Build Tools (para dlib y cmake)
+- Descargar e instalar Cmake desde: https://cmake.org/download/
 - Librerías: ver `requirements.txt`
 
 ## Importante
