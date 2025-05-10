@@ -108,7 +108,7 @@ class EmotionDashboard:
 
         # CAMBIO: configuración de detectores
         if modelo == "FER":
-            detector = FER(mtcnn=False)
+            detector = FER(mtcnn=True)#optar por true o false dependiendo de la GPU y el rendimiento
         else:
             # redirige la búsqueda del cascade de OpenCV a data/
             if os.path.exists(cascade_src):

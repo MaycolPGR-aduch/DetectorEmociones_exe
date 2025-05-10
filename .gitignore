@@ -1,5 +1,16 @@
 # Entorno virtual
 venv/
+
+# Archivos de configuración de IDE
+prototipos/
+
 # Cachés de Python
 __pycache__/
 *.pyc
+
+# Ignorar contenido de la carpeta usuarios, pero no la carpeta en sí
+usuarios/*
+!usuarios/.gitkeep
+
+# Ignorar carpeta know_faces por completo
+known_faces/
