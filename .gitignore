@@ -1,5 +1,6 @@
 # Entorno virtual
 venv/
+venv311/
 
 # Archivos de configuración de IDE
 prototipos/
@@ -14,3 +15,6 @@ usuarios/*
 
 # Ignorar carpeta know_faces por completo
 known_faces/
+
+# Carpeta output generada en tiempo de ejecución
+output/

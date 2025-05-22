@@ -1,0 +1,665 @@
+2025-05-14 12:46:01,723 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 12:46:08,417 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 12:46:08,417 - main - INFO - TensorFlow disponible: True
+2025-05-14 12:46:08,423 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-14 12:46:08,424 - main - INFO - Directorio base: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe
+2025-05-14 12:46:08,424 - main - INFO - Directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 12:46:08,533 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 12:46:08,564 - interfaz - INFO - Logo cargado correctamente
+2025-05-14 12:46:08,568 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 12:46:08,568 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 12:46:08,568 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-14 12:46:09,447 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-14 12:46:09,447 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-14 12:46:09,482 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 12:46:10,991 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 12:46:10,998 - detector - INFO - Face recognition inicializado
+2025-05-14 12:46:11,347 - detector - INFO - Detector FER inicializado
+2025-05-14 12:46:17,747 - detector - INFO - Rostros cargados: 10
+2025-05-14 12:46:17,747 - interfaz - INFO - Detector inicializado correctamente
+2025-05-14 12:46:17,776 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-14 12:46:17,776 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-14 12:46:17,817 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 12:46:17,818 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 12:46:17,818 - registro - INFO - Face recognition inicializado correctamente
+2025-05-14 12:46:17,818 - interfaz - INFO - Registro inicializado correctamente
+2025-05-14 12:46:17,828 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 12:46:20,398 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 12:46:20,398 - detector - INFO - Detector iniciado
+2025-05-14 12:46:20,398 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 12:46:45,838 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-14 12:46:45,839 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-14 12:46:48,317 - detector - INFO - Detector detenido
+2025-05-14 12:46:48,320 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 12:46:54,048 - registro - INFO - Thread de video iniciado
+2025-05-14 12:46:54,048 - registro - INFO - Cámara inicializada correctamente
+2025-05-14 12:46:54,049 - interfaz - INFO - Registro mostrado correctamente
+2025-05-14 12:47:02,103 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu
+2025-05-14 12:47:02,368 - registro - INFO - Guardada foto 0 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\0.jpg
+2025-05-14 12:47:03,153 - registro - INFO - Guardada foto 1 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\1.jpg
+2025-05-14 12:47:06,768 - registro - INFO - Guardada foto 2 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\2.jpg
+2025-05-14 12:47:11,794 - registro - WARNING - Fallo al registrar usuario: rostro no detectado
+2025-05-14 12:47:13,708 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu
+2025-05-14 12:47:14,137 - registro - INFO - Guardada foto 0 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\0.jpg
+2025-05-14 12:47:14,860 - registro - INFO - Guardada foto 1 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\1.jpg
+2025-05-14 12:47:15,591 - registro - INFO - Guardada foto 2 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\2.jpg
+2025-05-14 12:47:16,318 - registro - INFO - Guardada foto 3 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\3.jpg
+2025-05-14 12:47:17,050 - registro - INFO - Guardada foto 4 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\maycolacu\4.jpg
+2025-05-14 12:47:19,233 - registro - INFO - Usuario 'maycolacu' registrado exitosamente con 5 fotos
+2025-05-14 12:47:19,809 - registro - INFO - Registro ocultado
+2025-05-14 12:47:19,829 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 12:47:22,558 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 12:47:22,558 - detector - INFO - Detector iniciado
+2025-05-14 12:47:22,558 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 12:47:38,598 - detector - INFO - Detector detenido
+2025-05-14 12:47:38,598 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 13:09:54,180 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 13:09:59,070 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 13:09:59,070 - main - INFO - TensorFlow disponible: True
+2025-05-14 13:09:59,114 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-14 13:09:59,116 - main - INFO - Directorio base: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe
+2025-05-14 13:09:59,116 - main - INFO - Directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 13:09:59,204 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 13:09:59,308 - interfaz - INFO - Logo cargado correctamente
+2025-05-14 13:09:59,310 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 13:09:59,311 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 13:09:59,311 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-14 13:09:59,961 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-14 13:09:59,961 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-14 13:10:00,016 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 13:10:01,587 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 13:10:01,588 - detector - INFO - Face recognition inicializado
+2025-05-14 13:10:01,920 - detector - INFO - Detector FER inicializado
+2025-05-14 13:10:11,490 - detector - INFO - Rostros cargados: 15
+2025-05-14 13:10:11,491 - interfaz - INFO - Detector inicializado correctamente
+2025-05-14 13:10:11,527 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-14 13:10:11,527 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-14 13:10:11,531 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 13:10:11,531 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 13:10:11,538 - registro - INFO - Face recognition inicializado correctamente
+2025-05-14 13:10:11,539 - interfaz - INFO - Registro inicializado correctamente
+2025-05-14 13:10:11,556 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 13:10:14,321 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 13:10:14,321 - detector - INFO - Detector iniciado
+2025-05-14 13:10:14,321 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 13:10:27,281 - detector - INFO - Detector detenido
+2025-05-14 13:10:27,300 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 13:10:31,821 - registro - INFO - Thread de video iniciado
+2025-05-14 13:10:31,821 - registro - INFO - Cámara inicializada correctamente
+2025-05-14 13:10:31,831 - interfaz - INFO - Registro mostrado correctamente
+2025-05-14 13:10:41,003 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll
+2025-05-14 13:10:41,207 - registro - INFO - Guardada foto 0 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\0.jpg
+2025-05-14 13:10:41,909 - registro - INFO - Guardada foto 1 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\1.jpg
+2025-05-14 13:10:45,118 - registro - INFO - Guardada foto 2 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\2.jpg
+2025-05-14 13:10:46,026 - registro - INFO - Guardada foto 3 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\3.jpg
+2025-05-14 13:10:50,312 - registro - WARNING - Fallo al registrar usuario: rostro no detectado
+2025-05-14 13:10:51,005 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll
+2025-05-14 13:10:58,305 - registro - WARNING - Fallo al registrar usuario: rostro no detectado
+2025-05-14 13:10:58,928 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll
+2025-05-14 13:10:59,908 - registro - INFO - Guardada foto 0 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\0.jpg
+2025-05-14 13:11:00,809 - registro - INFO - Guardada foto 1 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\1.jpg
+2025-05-14 13:11:02,108 - registro - INFO - Guardada foto 2 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\2.jpg
+2025-05-14 13:11:05,690 - registro - INFO - Guardada foto 3 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\3.jpg
+2025-05-14 13:11:06,391 - registro - INFO - Guardada foto 4 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\lllll\4.jpg
+2025-05-14 13:11:08,779 - registro - INFO - Usuario 'lllll' registrado exitosamente con 5 fotos
+2025-05-14 13:11:09,273 - registro - INFO - Registro ocultado
+2025-05-14 13:11:09,287 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 13:11:10,585 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 13:11:11,292 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 13:11:11,293 - detector - INFO - Detector iniciado
+2025-05-14 13:11:11,293 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 13:11:20,592 - detector - INFO - Detector detenido
+2025-05-14 13:11:20,594 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 20:03:30,407 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:03:35,337 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:03:35,337 - main - INFO - TensorFlow disponible: True
+2025-05-14 20:03:35,338 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-14 20:03:35,340 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:03:35,341 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-14 20:03:35,398 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:03:35,423 - interfaz - INFO - Logo cargado correctamente
+2025-05-14 20:03:35,425 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:03:35,427 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:03:35,427 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-14 20:03:36,037 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-14 20:03:36,037 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-14 20:03:36,083 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:03:37,861 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:03:37,861 - detector - INFO - Face recognition inicializado
+2025-05-14 20:03:38,212 - detector - INFO - Detector FER inicializado
+2025-05-14 20:03:38,216 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-14 20:03:38,220 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-14 20:03:38,227 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-14 20:03:38,232 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-14 20:03:38,236 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-14 20:03:38,242 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-14 20:03:38,246 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-14 20:03:51,806 - detector - INFO - Rostros cargados: 23
+2025-05-14 20:03:51,806 - interfaz - INFO - Detector inicializado correctamente
+2025-05-14 20:03:51,808 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-14 20:03:51,808 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-14 20:03:51,810 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:03:51,811 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:03:51,811 - registro - INFO - Face recognition inicializado correctamente
+2025-05-14 20:03:51,811 - interfaz - INFO - Registro inicializado correctamente
+2025-05-14 20:03:51,827 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 20:04:03,679 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 20:04:03,681 - detector - INFO - Detector iniciado
+2025-05-14 20:04:03,681 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 20:11:25,999 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:11:31,265 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:11:31,266 - main - INFO - TensorFlow disponible: True
+2025-05-14 20:11:31,267 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-14 20:11:31,269 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:11:31,269 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-14 20:11:31,328 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:11:31,357 - interfaz - INFO - Logo cargado correctamente
+2025-05-14 20:11:31,359 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:11:31,359 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:11:31,360 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-14 20:11:31,983 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-14 20:11:31,983 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-14 20:11:31,986 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:11:33,783 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:11:33,783 - detector - INFO - Face recognition inicializado
+2025-05-14 20:11:34,042 - detector - INFO - Detector FER inicializado
+2025-05-14 20:11:34,047 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-14 20:11:34,051 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-14 20:11:34,056 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-14 20:11:34,061 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-14 20:11:34,066 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-14 20:11:34,069 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-14 20:11:34,075 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-14 20:11:48,730 - detector - INFO - Rostros cargados: 23
+2025-05-14 20:11:48,730 - interfaz - INFO - Detector inicializado correctamente
+2025-05-14 20:11:48,732 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-14 20:11:48,732 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-14 20:11:48,752 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:11:48,755 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:11:48,756 - registro - INFO - Face recognition inicializado correctamente
+2025-05-14 20:11:48,756 - interfaz - INFO - Registro inicializado correctamente
+2025-05-14 20:11:48,772 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 20:11:50,849 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 20:11:50,850 - detector - INFO - Detector iniciado
+2025-05-14 20:11:50,851 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 20:12:10,479 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-14 20:12:10,480 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-14 20:12:12,427 - detector - INFO - Detector detenido
+2025-05-14 20:12:12,429 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 20:12:17,103 - registro - INFO - Thread de video iniciado
+2025-05-14 20:12:17,105 - registro - INFO - Cámara inicializada correctamente
+2025-05-14 20:12:17,106 - interfaz - INFO - Registro mostrado correctamente
+2025-05-14 20:12:25,785 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg
+2025-05-14 20:12:26,018 - registro - INFO - Guardada foto 1/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg\0.jpg
+2025-05-14 20:12:27,144 - registro - INFO - Guardada foto 2/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg\1.jpg
+2025-05-14 20:12:28,282 - registro - INFO - Guardada foto 3/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg\2.jpg
+2025-05-14 20:12:29,440 - registro - INFO - Guardada foto 4/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg\3.jpg
+2025-05-14 20:12:30,570 - registro - INFO - Guardada foto 5/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\fgfgfg\4.jpg
+2025-05-14 20:12:33,524 - registro - INFO - Usuario 'fgfgfg' registrado exitosamente con 5 fotos
+2025-05-14 20:12:34,269 - registro - INFO - Cámara liberada correctamente
+2025-05-14 20:12:34,272 - registro - INFO - Registro ocultado
+2025-05-14 20:12:34,286 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 20:12:36,162 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 20:12:36,914 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 20:12:36,916 - detector - INFO - Detector iniciado
+2025-05-14 20:12:36,916 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 20:12:49,176 - detector - INFO - Detector detenido
+2025-05-14 20:12:49,177 - interfaz - INFO - Detector detenido correctamente
+2025-05-14 20:31:53,567 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:31:59,828 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:31:59,828 - main - INFO - TensorFlow disponible: True
+2025-05-14 20:31:59,831 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-14 20:31:59,835 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:31:59,839 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-14 20:31:59,910 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:31:59,936 - interfaz - INFO - Logo cargado correctamente
+2025-05-14 20:31:59,937 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-14 20:31:59,937 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-14 20:31:59,938 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-14 20:32:00,693 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-14 20:32:00,693 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-14 20:32:00,720 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:32:02,484 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:32:02,485 - detector - INFO - Face recognition inicializado
+2025-05-14 20:32:02,808 - detector - INFO - Detector FER inicializado
+2025-05-14 20:32:02,813 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-14 20:32:02,817 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-14 20:32:02,822 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-14 20:32:02,829 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-14 20:32:02,833 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-14 20:32:02,837 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-14 20:32:02,842 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-14 20:32:23,410 - detector - INFO - Rostros cargados: 28
+2025-05-14 20:32:23,410 - interfaz - INFO - Detector inicializado correctamente
+2025-05-14 20:32:23,412 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-14 20:32:23,412 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-14 20:32:23,414 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-14 20:32:23,414 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-14 20:32:23,415 - registro - INFO - Face recognition inicializado correctamente
+2025-05-14 20:32:23,418 - interfaz - INFO - Registro inicializado correctamente
+2025-05-14 20:32:23,430 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-14 20:32:32,508 - interfaz - INFO - Detector mostrado correctamente
+2025-05-14 20:32:32,510 - detector - INFO - Detector iniciado
+2025-05-14 20:32:32,510 - interfaz - INFO - Detector iniciado correctamente
+2025-05-14 20:33:15,218 - detector - INFO - Detector detenido
+2025-05-14 20:33:15,218 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 09:44:18,698 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 09:44:24,771 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 09:44:24,771 - main - INFO - TensorFlow disponible: True
+2025-05-15 09:44:24,771 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 09:44:24,776 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 09:44:24,776 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 09:44:24,845 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 09:44:24,874 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 09:44:24,878 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 09:44:24,878 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 09:44:24,878 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 09:44:25,259 - tensorflow_minimal - INFO - Encontrado modelo FER en: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 09:44:25,259 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 09:44:25,650 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 09:44:25,650 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 09:44:25,656 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 09:44:27,410 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 09:44:27,411 - detector - INFO - Face recognition inicializado
+2025-05-15 09:44:27,725 - detector - INFO - Detector FER inicializado
+2025-05-15 09:44:27,732 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 09:44:27,739 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 09:44:27,740 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 09:44:27,747 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 09:44:27,756 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 09:44:27,763 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 09:44:27,771 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 09:44:45,023 - detector - INFO - Rostros cargados: 28
+2025-05-15 09:44:45,023 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 09:44:45,035 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 09:44:45,035 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 09:44:45,038 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 09:44:45,039 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 09:44:45,039 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 09:44:45,039 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 09:44:45,060 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 09:45:14,338 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 09:45:14,339 - detector - INFO - Detector iniciado
+2025-05-15 09:45:14,339 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 10:23:59,522 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 10:24:04,505 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 10:24:04,505 - main - INFO - TensorFlow disponible: True
+2025-05-15 10:24:04,510 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 10:24:04,517 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 10:24:04,517 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 10:24:04,575 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 10:24:04,597 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 10:24:04,601 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 10:24:04,601 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 10:24:04,602 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 10:24:04,834 - tensorflow_minimal - INFO - Encontrado modelo FER en: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 10:24:04,835 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 10:24:05,199 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 10:24:05,200 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 10:24:05,213 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 10:24:06,778 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 10:24:06,778 - detector - INFO - Face recognition inicializado
+2025-05-15 10:24:06,949 - detector - INFO - Detector FER inicializado
+2025-05-15 10:24:06,966 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 10:24:06,970 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 10:24:06,974 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 10:24:06,978 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 10:24:06,982 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 10:24:06,987 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 10:24:06,991 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 10:24:25,561 - detector - INFO - Rostros cargados: 28
+2025-05-15 10:24:25,561 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 10:24:25,579 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 10:24:25,579 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 10:24:25,590 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 10:24:25,591 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 10:24:25,592 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 10:24:25,592 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 10:24:25,609 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 10:24:52,981 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 10:24:52,981 - detector - INFO - Detector iniciado
+2025-05-15 10:24:52,981 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 10:25:04,829 - detector - INFO - Detector detenido
+2025-05-15 10:25:04,830 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 12:14:02,325 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:14:35,940 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:14:35,940 - main - INFO - TensorFlow disponible: True
+2025-05-15 12:14:35,978 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 12:14:35,990 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:14:35,990 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 12:14:36,727 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:14:36,920 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 12:14:36,927 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:14:36,927 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:14:36,927 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 12:14:38,870 - tensorflow_minimal - INFO - Encontrado modelo FER en: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 12:14:38,873 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 12:14:39,731 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 12:14:39,731 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 12:14:39,902 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:14:42,691 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:14:42,691 - detector - INFO - Face recognition inicializado
+2025-05-15 12:14:42,928 - detector - INFO - Detector FER inicializado
+2025-05-15 12:14:42,980 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 12:14:42,980 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 12:14:43,001 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 12:14:43,022 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 12:14:43,036 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 12:14:43,049 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 12:14:43,063 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 12:15:01,775 - detector - INFO - Rostros cargados: 28
+2025-05-15 12:15:01,775 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 12:15:01,824 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 12:15:01,824 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 12:15:01,832 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:15:01,835 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:15:01,836 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 12:15:01,836 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 12:15:01,874 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 12:15:05,462 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:15:05,462 - detector - INFO - Detector iniciado
+2025-05-15 12:15:05,462 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 12:15:33,153 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-15 12:15:33,153 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-15 12:15:36,074 - detector - INFO - Detector detenido
+2025-05-15 12:15:36,074 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 12:15:40,856 - registro - INFO - Thread de video iniciado
+2025-05-15 12:15:40,856 - registro - INFO - Cámara inicializada correctamente
+2025-05-15 12:15:40,861 - interfaz - INFO - Registro mostrado correctamente
+2025-05-15 12:15:43,460 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:15:45,026 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:15:45,040 - detector - INFO - Detector iniciado
+2025-05-15 12:15:45,040 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 12:15:50,130 - registro - WARNING - Error leyendo frame de cámara (1/10)
+2025-05-15 12:15:50,612 - registro - WARNING - Error leyendo frame de cámara (2/10)
+2025-05-15 12:15:50,718 - registro - WARNING - Error leyendo frame de cámara (3/10)
+2025-05-15 12:15:50,823 - registro - WARNING - Error leyendo frame de cámara (4/10)
+2025-05-15 12:15:50,929 - registro - WARNING - Error leyendo frame de cámara (5/10)
+2025-05-15 12:15:51,035 - registro - WARNING - Error leyendo frame de cámara (6/10)
+2025-05-15 12:15:51,148 - registro - WARNING - Error leyendo frame de cámara (7/10)
+2025-05-15 12:15:51,252 - registro - WARNING - Error leyendo frame de cámara (8/10)
+2025-05-15 12:15:51,354 - registro - WARNING - Error leyendo frame de cámara (9/10)
+2025-05-15 12:15:51,461 - registro - WARNING - Error leyendo frame de cámara (10/10)
+2025-05-15 12:15:51,462 - registro - ERROR - Demasiados errores consecutivos de cámara
+2025-05-15 12:15:51,472 - registro - INFO - Cámara liberada al finalizar loop de video
+2025-05-15 12:16:02,813 - detector - INFO - Detector detenido
+2025-05-15 12:16:02,814 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 12:16:58,990 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:17:04,539 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:17:04,539 - main - INFO - TensorFlow disponible: True
+2025-05-15 12:17:04,541 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 12:17:04,543 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:17:04,543 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 12:17:04,631 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:17:04,666 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 12:17:04,668 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:17:04,668 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:17:04,668 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 12:17:05,154 - tensorflow_minimal - INFO - Encontrado modelo FER en: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 12:17:05,154 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 12:17:05,794 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 12:17:05,808 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 12:17:05,812 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:17:07,905 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:17:07,905 - detector - INFO - Face recognition inicializado
+2025-05-15 12:17:08,140 - detector - INFO - Detector FER inicializado
+2025-05-15 12:17:08,141 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 12:17:08,149 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 12:17:08,152 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 12:17:08,158 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 12:17:08,163 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 12:17:08,169 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 12:17:08,173 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 12:18:38,835 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:18:45,260 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:18:45,260 - main - INFO - TensorFlow disponible: True
+2025-05-15 12:18:45,260 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 12:18:45,260 - main - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:18:45,260 - main - INFO - Usando archivo cascade: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 12:18:45,371 - interfaz - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:18:45,408 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 12:18:45,410 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:18:45,410 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:18:45,410 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 12:18:45,777 - tensorflow_minimal - INFO - Encontrado modelo FER en: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 12:18:45,777 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 12:18:46,522 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 12:18:46,522 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 12:18:46,530 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:18:48,613 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:18:48,613 - detector - INFO - Face recognition inicializado
+2025-05-15 12:18:48,874 - detector - INFO - Detector FER inicializado
+2025-05-15 12:18:48,874 - detector - INFO - Emoji cargado: angry desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 12:18:48,890 - detector - INFO - Emoji cargado: disgust desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 12:18:48,895 - detector - INFO - Emoji cargado: fear desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 12:18:48,899 - detector - INFO - Emoji cargado: happy desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 12:18:48,911 - detector - INFO - Emoji cargado: sad desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 12:18:48,914 - detector - INFO - Emoji cargado: surprise desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 12:18:48,922 - detector - INFO - Emoji cargado: neutral desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 12:19:10,594 - detector - INFO - Rostros cargados: 28
+2025-05-15 12:19:10,594 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 12:19:10,605 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 12:19:10,605 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 12:19:10,609 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:19:10,609 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:19:10,609 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 12:19:10,612 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 12:19:10,647 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 12:19:12,611 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:19:12,611 - detector - INFO - Detector iniciado
+2025-05-15 12:19:12,611 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 12:19:51,605 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-15 12:19:51,612 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-15 12:19:58,133 - detector - INFO - Detector detenido
+2025-05-15 12:19:58,135 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 12:23:19,547 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:23:25,979 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:23:25,979 - main - INFO - TensorFlow disponible: True
+2025-05-15 12:23:25,979 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 12:23:25,985 - main - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:23:25,985 - main - INFO - Usando archivo cascade: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 12:23:26,085 - interfaz - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:23:26,121 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 12:23:26,125 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:23:26,125 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:23:26,125 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 12:23:26,527 - tensorflow_minimal - INFO - Encontrado modelo FER en: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 12:23:26,527 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model'
+2025-05-15 12:23:27,166 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 12:23:27,166 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 12:23:27,175 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:23:29,459 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:23:29,459 - detector - INFO - Face recognition inicializado
+2025-05-15 12:23:29,761 - detector - INFO - Detector FER inicializado
+2025-05-15 12:23:29,761 - detector - INFO - Emoji cargado: angry desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 12:23:29,779 - detector - INFO - Emoji cargado: disgust desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 12:23:29,785 - detector - INFO - Emoji cargado: fear desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 12:23:29,790 - detector - INFO - Emoji cargado: happy desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 12:23:29,797 - detector - INFO - Emoji cargado: sad desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 12:23:29,805 - detector - INFO - Emoji cargado: surprise desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 12:23:29,822 - detector - INFO - Emoji cargado: neutral desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 12:23:52,833 - detector - INFO - Rostros cargados: 28
+2025-05-15 12:23:52,833 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 12:23:52,833 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 12:23:52,833 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 12:23:52,849 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:23:52,849 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:23:52,851 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 12:23:52,851 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 12:23:52,866 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 12:25:01,647 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:25:01,648 - detector - INFO - Detector iniciado
+2025-05-15 12:25:01,648 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 12:25:30,262 - detector - INFO - Detector detenido
+2025-05-15 12:25:30,262 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 12:26:26,437 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:26:33,398 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:26:33,398 - main - INFO - TensorFlow disponible: True
+2025-05-15 12:26:33,398 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 12:26:33,398 - main - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:26:33,406 - main - INFO - Usando archivo cascade: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 12:26:33,522 - interfaz - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:26:33,556 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 12:26:33,558 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 12:26:33,558 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 12:26:33,558 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 12:26:33,947 - tensorflow_minimal - INFO - Encontrado modelo FER en: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 12:26:33,947 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'emotion_model'
+2025-05-15 12:26:34,605 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 12:26:34,607 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 12:26:34,611 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:26:37,158 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:26:37,158 - detector - INFO - Face recognition inicializado
+2025-05-15 12:26:37,515 - detector - INFO - Detector FER inicializado
+2025-05-15 12:26:37,531 - detector - INFO - Emoji cargado: angry desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 12:26:37,540 - detector - INFO - Emoji cargado: disgust desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 12:26:37,540 - detector - INFO - Emoji cargado: fear desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 12:26:37,550 - detector - INFO - Emoji cargado: happy desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 12:26:37,559 - detector - INFO - Emoji cargado: sad desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 12:26:37,563 - detector - INFO - Emoji cargado: surprise desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 12:26:37,571 - detector - INFO - Emoji cargado: neutral desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 12:27:12,723 - detector - INFO - Rostros cargados: 28
+2025-05-15 12:27:12,723 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 12:27:12,738 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 12:27:12,738 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 12:27:12,738 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 12:27:12,738 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 12:27:12,738 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 12:27:12,744 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 12:27:12,787 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 12:27:56,638 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 12:27:56,654 - detector - INFO - Detector iniciado
+2025-05-15 12:27:56,654 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 12:28:17,498 - detector - INFO - Detector detenido
+2025-05-15 12:28:17,499 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 17:20:22,510 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 17:20:29,757 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 17:20:29,758 - main - INFO - TensorFlow disponible: True
+2025-05-15 17:20:29,761 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 17:20:29,763 - main - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 17:20:29,764 - main - INFO - Usando archivo cascade: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 17:20:29,880 - interfaz - INFO - Usando directorio de datos: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 17:20:29,926 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 17:20:29,930 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 17:20:29,930 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 17:20:29,931 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 17:20:30,362 - tensorflow_minimal - INFO - Encontrado modelo FER en: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 17:20:30,362 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 17:20:31,117 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 17:20:31,117 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 17:20:31,127 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 17:20:33,727 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 17:20:33,736 - detector - INFO - Face recognition inicializado
+2025-05-15 17:20:34,049 - detector - INFO - Detector FER inicializado
+2025-05-15 17:20:34,050 - detector - INFO - Emoji cargado: angry desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 17:20:34,062 - detector - INFO - Emoji cargado: disgust desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 17:20:34,070 - detector - INFO - Emoji cargado: fear desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 17:20:34,078 - detector - INFO - Emoji cargado: happy desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 17:20:34,080 - detector - INFO - Emoji cargado: sad desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 17:20:34,087 - detector - INFO - Emoji cargado: surprise desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 17:20:34,097 - detector - INFO - Emoji cargado: neutral desde d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 17:20:59,276 - detector - INFO - Rostros cargados: 28
+2025-05-15 17:20:59,276 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 17:20:59,280 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 17:20:59,281 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 17:20:59,283 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 17:20:59,283 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 17:20:59,283 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 17:20:59,286 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 17:20:59,300 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 17:41:56,897 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:41:56,907 - detector - INFO - Detector iniciado
+2025-05-15 17:41:56,907 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 17:44:12,009 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-15 17:44:12,009 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-15 17:44:28,975 - detector - INFO - Detector detenido
+2025-05-15 17:44:28,975 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 17:44:35,879 - registro - INFO - Thread de video iniciado
+2025-05-15 17:44:35,884 - registro - INFO - Cámara inicializada correctamente
+2025-05-15 17:44:35,884 - interfaz - INFO - Registro mostrado correctamente
+2025-05-15 17:44:54,360 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz
+2025-05-15 17:44:54,757 - registro - INFO - Guardada foto 1/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz\0.jpg
+2025-05-15 17:44:56,161 - registro - INFO - Guardada foto 2/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz\1.jpg
+2025-05-15 17:44:57,468 - registro - INFO - Guardada foto 3/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz\2.jpg
+2025-05-15 17:44:58,895 - registro - INFO - Guardada foto 4/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz\3.jpg
+2025-05-15 17:45:00,375 - registro - INFO - Guardada foto 5/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\MaycolDiaz\4.jpg
+2025-05-15 17:45:11,940 - registro - INFO - Usuario 'MaycolDiaz' registrado exitosamente con 5 fotos
+2025-05-15 17:45:12,149 - registro - INFO - Cámara liberada correctamente
+2025-05-15 17:45:12,151 - registro - INFO - Registro ocultado
+2025-05-15 17:45:12,201 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 17:45:12,482 - registro - INFO - Cámara liberada al finalizar loop de video
+2025-05-15 17:45:15,019 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:45:15,881 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:45:15,881 - detector - INFO - Detector iniciado
+2025-05-15 17:45:15,886 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 17:46:04,368 - detector - INFO - Detector detenido
+2025-05-15 17:46:04,369 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 17:46:11,866 - registro - INFO - Thread de video iniciado
+2025-05-15 17:46:11,867 - registro - INFO - Cámara inicializada correctamente
+2025-05-15 17:46:11,869 - interfaz - INFO - Registro mostrado correctamente
+2025-05-15 17:46:25,087 - registro - INFO - Creando carpeta para usuario: d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian
+2025-05-15 17:46:25,495 - registro - INFO - Guardada foto 1/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian\0.jpg
+2025-05-15 17:46:26,785 - registro - INFO - Guardada foto 2/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian\1.jpg
+2025-05-15 17:46:28,158 - registro - INFO - Guardada foto 3/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian\2.jpg
+2025-05-15 17:46:29,599 - registro - INFO - Guardada foto 4/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian\3.jpg
+2025-05-15 17:46:30,804 - registro - INFO - Guardada foto 5/5 en d:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\usuarios\sebastian\4.jpg
+2025-05-15 17:46:33,908 - registro - INFO - Usuario 'sebastian' registrado exitosamente con 5 fotos
+2025-05-15 17:46:34,109 - registro - INFO - Cámara liberada correctamente
+2025-05-15 17:46:34,109 - registro - INFO - Registro ocultado
+2025-05-15 17:46:34,161 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 17:46:34,453 - registro - INFO - Cámara liberada al finalizar loop de video
+2025-05-15 17:46:35,845 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:46:36,728 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:46:36,728 - detector - INFO - Detector iniciado
+2025-05-15 17:46:36,732 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 17:46:52,040 - detector - INFO - Detector detenido
+2025-05-15 17:46:52,051 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 17:46:53,090 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:46:54,440 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 17:46:54,440 - detector - INFO - Detector iniciado
+2025-05-15 17:46:54,440 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 17:47:47,424 - detector - INFO - Detector detenido
+2025-05-15 17:47:47,425 - interfaz - INFO - Detector detenido correctamente
+2025-05-15 17:47:48,203 - encuesta - INFO - Encuesta mostrada correctamente
+2025-05-15 17:47:48,204 - interfaz - INFO - Encuesta mostrada correctamente
+2025-05-15 18:30:29,837 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 18:31:09,718 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 18:31:22,855 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 18:31:22,855 - main - INFO - TensorFlow disponible: True
+2025-05-15 18:31:22,880 - main - INFO - Face recognition wrapper cargado correctamente
+2025-05-15 18:31:22,881 - main - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 18:31:22,888 - main - INFO - Usando archivo cascade: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\haarcascade_frontalface_default.xml
+2025-05-15 18:31:23,605 - interfaz - INFO - Usando directorio de datos: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 18:31:23,813 - interfaz - INFO - Logo cargado correctamente
+2025-05-15 18:31:23,819 - tensorflow_minimal - INFO - Intentando cargar TensorFlow...
+2025-05-15 18:31:23,819 - tensorflow_minimal - INFO - TensorFlow cargado correctamente, versión: 2.19.0
+2025-05-15 18:31:23,819 - tensorflow_minimal - INFO - Intentando cargar el detector FER...
+2025-05-15 18:31:26,378 - tensorflow_minimal - INFO - Encontrado modelo FER en: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\emotion_model.hdf5
+2025-05-15 18:31:26,378 - tensorflow_minimal - ERROR - Error al cargar FER con modelo encontrado: FER.__init__() got an unexpected keyword argument 'model_path'
+2025-05-15 18:31:28,473 - tensorflow_minimal - INFO - Detector FER cargado correctamente
+2025-05-15 18:31:28,473 - interfaz - INFO - Detector FER inicializado: FER
+2025-05-15 18:31:28,514 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 18:31:31,036 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 18:31:31,036 - detector - INFO - Face recognition inicializado
+2025-05-15 18:31:31,250 - detector - INFO - Detector FER inicializado
+2025-05-15 18:31:31,459 - detector - INFO - Emoji cargado: angry desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\angry.png
+2025-05-15 18:31:31,475 - detector - INFO - Emoji cargado: disgust desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\disgust.png
+2025-05-15 18:31:31,489 - detector - INFO - Emoji cargado: fear desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\fear.png
+2025-05-15 18:31:31,504 - detector - INFO - Emoji cargado: happy desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\happy.png
+2025-05-15 18:31:31,517 - detector - INFO - Emoji cargado: sad desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\sad.png
+2025-05-15 18:31:31,527 - detector - INFO - Emoji cargado: surprise desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\surprise.png
+2025-05-15 18:31:31,530 - detector - INFO - Emoji cargado: neutral desde D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data\img\neutral.png
+2025-05-15 18:31:40,120 - detector - INFO - Rostros cargados: 15
+2025-05-15 18:31:40,120 - interfaz - INFO - Detector inicializado correctamente
+2025-05-15 18:31:40,151 - encuesta - INFO - Encuesta inicializada correctamente
+2025-05-15 18:31:40,151 - interfaz - INFO - Encuesta inicializada correctamente
+2025-05-15 18:31:40,163 - face_recognition_wrapper - INFO - Intentando cargar face_recognition con data_path: D:\Python\DetectorEmotionsExe\DetectorEmociones_exe\data
+2025-05-15 18:31:40,164 - face_recognition_wrapper - INFO - face_recognition importado exitosamente
+2025-05-15 18:31:40,166 - registro - INFO - Face recognition inicializado correctamente
+2025-05-15 18:31:40,169 - interfaz - INFO - Registro inicializado correctamente
+2025-05-15 18:31:40,186 - interfaz - INFO - Imagen de bienvenida cargada correctamente
+2025-05-15 18:31:45,146 - interfaz - INFO - Detector mostrado correctamente
+2025-05-15 18:31:45,146 - detector - INFO - Detector iniciado
+2025-05-15 18:31:45,146 - interfaz - INFO - Detector iniciado correctamente
+2025-05-15 18:32:35,931 - detector - INFO - Detector detenido
+2025-05-15 18:32:35,949 - interfaz - INFO - Detector detenido correctamente
