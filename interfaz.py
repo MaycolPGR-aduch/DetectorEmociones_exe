@@ -20,10 +20,10 @@ logger = logging.getLogger("interfaz")
 class EmotionDashboard:
     def __init__(self, root):
         self.root = root
-        self.root.title("Sistema de Detección de Emociones")
-        self.root.geometry("1000x600")
-        self.root.configure(bg='#f4f4f4')
-        self.root.state("zoomed")  #
+        self.root.title("Sistema de Detección de Emociones - Universidad")
+        self.root.geometry("1200x700")
+        self.root.configure(bg='#f8f9fa')
+        self.root.state("zoomed")
 
         # Determinar ruta de datos
         base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
@@ -43,12 +43,8 @@ class EmotionDashboard:
         self.fps_var = tk.StringVar(value="FPS: 0.0")
         self.faces_var = tk.StringVar(value="Rostros: 0")
 
-        # Estilo de botones
-        style = ttk.Style()
-        style.configure("Start.TButton", foreground="white", background="#28a745")
-        style.configure("Stop.TButton", foreground="white", background="#dc3545")
-        style.configure("TButton", font=("Segoe UI", 10), padding=6)
-
+        # Configurar estilos modernos
+        self._configurar_estilos()
         self._crear_gui()
 
         # Inicializar módulos con manejo de errores
@@ -99,70 +95,310 @@ class EmotionDashboard:
 
         self.show_welcome()
 
+    def _configurar_estilos(self):
+        """Configurar estilos modernos para la aplicación"""
+        style = ttk.Style()
+        
+        # Configurar tema base
+        style.theme_use('clam')
+        
+        # Colores principales
+        colors = {
+            'primary': '#0d6efd',      # Azul moderno
+            'success': '#198754',      # Verde éxito
+            'danger': '#dc3545',       # Rojo peligro
+            'warning': '#ffc107',      # Amarillo advertencia
+            'info': '#0dcaf0',         # Cian información
+            'light': '#f8f9fa',        # Gris claro
+            'dark': '#212529',         # Gris oscuro
+            'secondary': '#6c757d'     # Gris secundario
+        }
+        
+        # Estilo para botones de acción principales
+        style.configure("Primary.TButton",
+                       background=colors['primary'],
+                       foreground="white",
+                       font=("Segoe UI", 11, "bold"),
+                       padding=(20, 12),
+                       relief="flat",
+                       borderwidth=0)
+        
+        style.map("Primary.TButton",
+                 background=[('active', '#0b5ed7'), ('pressed', '#0a58ca')])
+        
+        # Estilo para botón de inicio
+        style.configure("Success.TButton",
+                       background=colors['success'],
+                       foreground="white",
+                       font=("Segoe UI", 11, "bold"),
+                       padding=(20, 12),
+                       relief="flat",
+                       borderwidth=0)
+        
+        style.map("Success.TButton",
+                 background=[('active', '#157347'), ('pressed', '#146c43')])
+        
+        # Estilo para botón de detener
+        style.configure("Danger.TButton",
+                       background=colors['danger'],
+                       foreground="white",
+                       font=("Segoe UI", 11, "bold"),
+                       padding=(20, 12),
+                       relief="flat",
+                       borderwidth=0)
+        
+        style.map("Danger.TButton",
+                 background=[('active', '#bb2d3b'), ('pressed', '#b02a37')])
+        
+        # Estilo para botones secundarios
+        style.configure("Secondary.TButton",
+                       background=colors['light'],
+                       foreground=colors['dark'],
+                       font=("Segoe UI", 10),
+                       padding=(15, 10),
+                       relief="flat",
+                       borderwidth=1)
+        
+        style.map("Secondary.TButton",
+                 background=[('active', '#e9ecef'), ('pressed', '#dee2e6')])
+
+    def _crear_iconos_texto(self):
+        """Crear iconos usando texto Unicode para los botones"""
+        return {
+            'play': '▶',      # Iniciar
+            'stop': '⏹',      # Detener
+            'camera': '📷',    # Detector
+            'survey': '📋',    # Encuesta
+            'user': '👤',      # Registro
+            'settings': '⚙',   # Configuración
+            'stats': '📊'      # Estadísticas
+        }
+
     def _crear_gui(self):
-        # --- Panel lateral ---
-        menu = tk.Frame(self.root, bg="#2c3e50", width=250)
-        menu.pack(side="left", fill="y")
+        # Obtener iconos
+        icons = self._crear_iconos_texto()
+        
+        # --- Panel lateral mejorado con scroll ---
+        menu_container = tk.Frame(self.root, bg="#1e293b", width=280)
+        menu_container.pack(side="left", fill="y")
+        menu_container.pack_propagate(False)
+        
+        # Canvas y scrollbar para el menú
+        canvas = tk.Canvas(menu_container, bg="#1e293b", highlightthickness=0, width=280)
+        scrollbar = ttk.Scrollbar(menu_container, orient="vertical", command=canvas.yview)
+        scrollable_frame = tk.Frame(canvas, bg="#1e293b")
+        
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+        
+        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set)
+        
+        # Bind mousewheel to canvas
+        def _on_mousewheel(event):
+            canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+        
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+        
+        # Usar scrollable_frame como menu
+        menu = scrollable_frame
+        
+        # Título del menú
+        title_frame = tk.Frame(menu, bg="#1e293b")
+        title_frame.pack(fill="x", pady=(20, 30), padx=20)
+        
+        tk.Label(title_frame, 
+                text="🎯 CONTROL PANEL", 
+                font=("Segoe UI", 14, "bold"), 
+                bg="#1e293b", 
+                fg="#f1f5f9").pack()
 
-        grp1 = tk.LabelFrame(menu, text="Control", bg="#2c3e50", fg="white", padx=10, pady=10)
-        grp1.pack(fill="x", pady=(20, 10), padx=10)
-        ttk.Button(grp1, text="Iniciar", style="Start.TButton", command=self.iniciar).pack(fill="x", pady=5)
-        ttk.Button(grp1, text="Detener", style="Stop.TButton", command=self.detener).pack(fill="x", pady=5)
+        # Grupo de Control Principal
+        grp1 = tk.LabelFrame(menu, 
+                           text=f"{icons['settings']} Control Principal", 
+                           bg="#1e293b", 
+                           fg="#e2e8f0", 
+                           font=("Segoe UI", 11, "bold"),
+                           padx=15, 
+                           pady=15)
+        grp1.pack(fill="x", pady=(0, 20), padx=20)
+        
+        # Botón Iniciar con estilo mejorado
+        btn_iniciar = ttk.Button(grp1, 
+                               text=f"{icons['play']} Iniciar Detección", 
+                               style="Success.TButton", 
+                               command=self.iniciar)
+        btn_iniciar.pack(fill="x", pady=(0, 10))
+        
+        # Botón Detener
+        btn_detener = ttk.Button(grp1, 
+                               text=f"{icons['stop']} Detener", 
+                               style="Danger.TButton", 
+                               command=self.detener)
+        btn_detener.pack(fill="x")
 
-        grp2 = tk.LabelFrame(menu, text="Vistas", bg="#2c3e50", fg="white", padx=10, pady=10)
-        grp2.pack(fill="x", pady=(0, 10), padx=10)
-        ttk.Button(grp2, text="Detector", command=self.show_detector).pack(fill="x", pady=5)
-        ttk.Button(grp2, text="Encuesta", command=self.show_survey).pack(fill="x", pady=5)
-        ttk.Button(grp2, text="Registrar usuario", command=self.show_registro).pack(fill="x", pady=5)
+        # Grupo de Navegación
+        grp2 = tk.LabelFrame(menu, 
+                           text="🧭 Navegación", 
+                           bg="#1e293b", 
+                           fg="#e2e8f0", 
+                           font=("Segoe UI", 11, "bold"),
+                           padx=15, 
+                           pady=15)
+        grp2.pack(fill="x", pady=(0, 20), padx=20)
+        
+        # Botones de navegación con iconos
+        nav_buttons = [
+            (f"{icons['camera']} Detector de Emociones", self.show_detector),
+            (f"{icons['survey']} Encuesta Emocional", self.show_survey),
+            (f"{icons['user']} Registrar Usuario", self.show_registro)
+        ]
+        
+        for text, command in nav_buttons:
+            btn = ttk.Button(grp2, text=text, style="Primary.TButton", command=command)
+            btn.pack(fill="x", pady=(0, 8))
 
-        grp3 = tk.LabelFrame(menu, text="Configuración", bg="#2c3e50", fg="white", padx=10, pady=10)
-        grp3.pack(fill="x", pady=(0, 10), padx=10)
+        # Grupo de Configuración
+        grp3 = tk.LabelFrame(menu, 
+                           text=f"{icons['settings']} Configuración", 
+                           bg="#1e293b", 
+                           fg="#e2e8f0", 
+                           font=("Segoe UI", 11, "bold"),
+                           padx=15, 
+                           pady=15)
+        grp3.pack(fill="x", pady=(0, 20), padx=20)
 
-        tk.Label(grp3, text="Ecualizar Histograma:", bg="#2c3e50", fg="white").pack(anchor="w", pady=(0, 5))
-        ttk.Radiobutton(grp3, text="Sí", variable=self.use_hist_eq, value=1).pack(anchor="w")
-        ttk.Radiobutton(grp3, text="No", variable=self.use_hist_eq, value=0).pack(anchor="w")
+        # Frame para configuración de histograma
+        hist_frame = tk.Frame(grp3, bg="#1e293b")
+        hist_frame.pack(fill="x", pady=(0, 10))
+        
+        tk.Label(hist_frame, 
+                text="🔧 Ecualizar Histograma:", 
+                bg="#1e293b", 
+                fg="#cbd5e1", 
+                font=("Segoe UI", 10)).pack(anchor="w", pady=(0, 5))
+        
+        radio_frame = tk.Frame(hist_frame, bg="#1e293b")
+        radio_frame.pack(fill="x")
+        
+        ttk.Radiobutton(radio_frame, text="✓ Activado", variable=self.use_hist_eq, value=1).pack(anchor="w")
+        ttk.Radiobutton(radio_frame, text="✗ Desactivado", variable=self.use_hist_eq, value=0).pack(anchor="w")
 
-        stats = tk.LabelFrame(menu, text="Estadísticas", bg="#2c3e50", fg="white", padx=10, pady=10)
-        stats.pack(fill="x", padx=10, pady=(0, 10))
-        tk.Label(stats, textvariable=self.fps_var, bg="#2c3e50", fg="white").pack(anchor="w")
-        tk.Label(stats, textvariable=self.faces_var, bg="#2c3e50", fg="white").pack(anchor="w")
+        # Estadísticas mejoradas
+        stats = tk.LabelFrame(menu, 
+                            text=f"{icons['stats']} Estadísticas", 
+                            bg="#1e293b", 
+                            fg="#e2e8f0", 
+                            font=("Segoe UI", 11, "bold"),
+                            padx=15, 
+                            pady=15)
+        stats.pack(fill="x", padx=20, pady=(0, 20))
+        
+        # Frame para estadísticas
+        stats_content = tk.Frame(stats, bg="#1e293b")
+        stats_content.pack(fill="x")
+        
+        tk.Label(stats_content, 
+                textvariable=self.fps_var, 
+                bg="#1e293b", 
+                fg="#22d3ee", 
+                font=("Segoe UI", 11, "bold")).pack(anchor="w", pady=2)
+        
+        tk.Label(stats_content, 
+                textvariable=self.faces_var, 
+                bg="#1e293b", 
+                fg="#34d399", 
+                font=("Segoe UI", 11, "bold")).pack(anchor="w", pady=2)
 
-        self.status_label = tk.Label(menu, text="Detenido", bg="#2c3e50", fg="yellow", font=("Segoe UI", 10, "bold"))
-        self.status_label.pack(pady=10)
+        # Indicador de estado mejorado
+        status_frame = tk.Frame(menu, bg="#1e293b")
+        status_frame.pack(pady=20, padx=20)
+        
+        tk.Label(status_frame, 
+                text="Estado del Sistema:", 
+                bg="#1e293b", 
+                fg="#94a3b8", 
+                font=("Segoe UI", 10)).pack()
+        
+        self.status_label = tk.Label(status_frame, 
+                                   text="🔴 Sistema Detenido", 
+                                   bg="#1e293b", 
+                                   fg="#fbbf24", 
+                                   font=("Segoe UI", 12, "bold"))
+        self.status_label.pack(pady=(5, 0))
+        
+        # Espacio adicional al final para mejor scroll
+        tk.Frame(menu, bg="#1e293b", height=50).pack()
 
-        # --- Panel principal (zona blanca + emoji) ---
-        main = tk.Frame(self.root, bg="white")
+        # --- Panel principal mejorado ---
+        main = tk.Frame(self.root, bg="#ffffff")
         main.pack(side="right", expand=True, fill="both")
 
-        header = tk.Frame(main, bg="white")
-        header.pack(fill="x", pady=10)
+        # Header con gradiente visual
+        header = tk.Frame(main, bg="#ffffff", height=100)
+        header.pack(fill="x", pady=(0, 0))
+        header.pack_propagate(False)
 
-        header_center = tk.Frame(header, bg="white")
-        header_center.pack(anchor="center")
+        # Contenedor centrado para el header
+        header_center = tk.Frame(header, bg="#ffffff")
+        header_center.pack(expand=True)
+
+        # Logo y título
+        title_container = tk.Frame(header_center, bg="#ffffff")
+        title_container.pack(expand=True, pady=20)
 
         try:
             logo_path = os.path.join(self.data_path, "logo_universidad.png")
             if os.path.exists(logo_path):
-                logo_img = Image.open(logo_path).resize((60, 60))
+                logo_img = Image.open(logo_path).resize((70, 70))
                 self.logo_img = ImageTk.PhotoImage(logo_img)
-                tk.Label(header_center, image=self.logo_img, bg="white").pack(side="left", padx=(0, 10))
+                tk.Label(title_container, image=self.logo_img, bg="#ffffff").pack(side="left", padx=(0, 15))
                 logger.info("Logo cargado correctamente")
             else:
+                # Logo placeholder si no existe
+                logo_placeholder = tk.Label(title_container, 
+                                          text="🎓", 
+                                          font=("Segoe UI", 40), 
+                                          bg="#ffffff", 
+                                          fg="#0d6efd")
+                logo_placeholder.pack(side="left", padx=(0, 15))
                 logger.warning(f"No se encontró el logo en {logo_path}")
         except Exception as e:
             logger.error(f"Error al cargar logo: {str(e)}")
             pass
 
-        tk.Label(header_center, text="Sistema de Detección de Emociones",
-                 font=("Segoe UI", 20, "bold"), bg="white", fg="#34495e").pack(side="left")
+        # Título principal mejorado
+        title_frame = tk.Frame(title_container, bg="#ffffff")
+        title_frame.pack(side="left")
+        
+        tk.Label(title_frame, 
+                text="Sistema de Detección de Emociones",
+                font=("Segoe UI", 24, "bold"), 
+                bg="#ffffff", 
+                fg="#1e293b").pack()
+        
+        tk.Label(title_frame, 
+                text="Tecnología Avanzada de Reconocimiento Facial",
+                font=("Segoe UI", 12), 
+                bg="#ffffff", 
+                fg="#64748b").pack()
 
-        container = tk.Frame(main, bg="white")
+        # Línea separadora
+        separator = tk.Frame(main, bg="#e2e8f0", height=2)
+        separator.pack(fill="x")
+
+        # Contenedor principal
+        container = tk.Frame(main, bg="#ffffff")
         container.pack(expand=True, fill="both")
 
-        self.content_frame = tk.Frame(container, bg="white")
+        self.content_frame = tk.Frame(container, bg="#ffffff")
         self.content_frame.pack(side="left", expand=True, fill="both")
 
-        self.emoji_panel = tk.Label(container, bg="black", width=150)
+        self.emoji_panel = tk.Label(container, bg="#000000", width=150)
         self.emoji_panel.pack(side="right", fill="y")
 
     def clear_content(self):
@@ -173,29 +409,98 @@ class EmotionDashboard:
         self.clear_content()
         self.emoji_panel.pack_forget()
 
-        frame = tk.Frame(self.content_frame, bg="white")
-        frame.pack(expand=True, fill="both")
+        # Container principal para bienvenida
+        main_container = tk.Frame(self.content_frame, bg="#ffffff")
+        main_container.pack(expand=True, fill="both")
+
+        # Frame centrado
+        welcome_frame = tk.Frame(main_container, bg="#ffffff")
+        welcome_frame.pack(expand=True)
 
         try:
             path_img = os.path.join(self.data_path, "bienvenida.png")
             if os.path.exists(path_img):
-                bienvenida_img = Image.open(path_img).resize((300, 200))
+                bienvenida_img = Image.open(path_img).resize((400, 250))
                 self.img_bienvenida = ImageTk.PhotoImage(bienvenida_img)
-                tk.Label(frame, image=self.img_bienvenida, bg="white").pack(pady=(30, 10))
+                tk.Label(welcome_frame, image=self.img_bienvenida, bg="#ffffff").pack(pady=(40, 20))
                 logger.info("Imagen de bienvenida cargada correctamente")
             else:
+                # Placeholder visual si no existe la imagen
+                placeholder = tk.Label(welcome_frame, 
+                                     text="🤖🧠💡", 
+                                     font=("Segoe UI", 80), 
+                                     bg="#ffffff", 
+                                     fg="#0d6efd")
+                placeholder.pack(pady=(40, 20))
                 logger.warning(f"No se encontró imagen de bienvenida en {path_img}")
         except Exception as e:
             logger.error(f"Error al cargar imagen de bienvenida: {str(e)}")
             pass
 
-        texto = (
-            "¡Bienvenido al Sistema de Detección de Emociones!\n\n"
-            "Este sistema puede reconocer expresiones faciales en tiempo real.\n"
-            "Puedes iniciar el detector, completar una encuesta o registrar tu rostro.\n\n"
-            "Usa el menú lateral para comenzar."
+        # Mensaje de bienvenida mejorado
+        welcome_title = tk.Label(welcome_frame, 
+                               text="¡Bienvenido al Futuro de la Detección Emocional!", 
+                               font=("Segoe UI", 22, "bold"), 
+                               bg="#ffffff", 
+                               fg="#1e293b")
+        welcome_title.pack(pady=(0, 15))
+
+        # Subtítulo
+        subtitle = tk.Label(welcome_frame, 
+                          text="Tecnología de Vanguardia para el Análisis de Expresiones Faciales", 
+                          font=("Segoe UI", 14), 
+                          bg="#ffffff", 
+                          fg="#64748b")
+        subtitle.pack(pady=(0, 25))
+
+        # Descripción mejorada
+        description_text = (
+            "🎯 Nuestro sistema utiliza inteligencia artificial avanzada para detectar y analizar\n"
+            "   emociones humanas en tiempo real con precisión excepcional.\n\n"
+            "🚀 Características principales:\n"
+            "   • Reconocimiento facial en tiempo real\n"
+            "   • Análisis de múltiples emociones simultáneamente\n"
+            "   • Interfaz intuitiva y profesional\n"
+            "   • Registro y seguimiento de usuarios\n\n"
+            "💡 Para comenzar, utiliza el panel de control lateral y selecciona la función deseada."
         )
-        tk.Label(frame, text=texto, font=("Segoe UI", 12), bg="white", justify="center").pack(pady=10)
+        
+        description = tk.Label(welcome_frame, 
+                             text=description_text, 
+                             font=("Segoe UI", 12), 
+                             bg="#ffffff", 
+                             fg="#334155",
+                             justify="left")
+        description.pack(pady=(0, 30))
+
+        # Botones de acceso rápido
+        quick_actions = tk.Frame(welcome_frame, bg="#ffffff")
+        quick_actions.pack(pady=(0, 20))
+
+        tk.Label(quick_actions, 
+                text="Acciones Rápidas:", 
+                font=("Segoe UI", 14, "bold"), 
+                bg="#ffffff", 
+                fg="#1e293b").pack(pady=(0, 15))
+
+        buttons_frame = tk.Frame(quick_actions, bg="#ffffff")
+        buttons_frame.pack()
+
+        # Botones de acceso rápido
+        ttk.Button(buttons_frame, 
+                  text="🚀 Iniciar Detección", 
+                  style="Success.TButton", 
+                  command=self.iniciar).pack(side="left", padx=(0, 10))
+
+        ttk.Button(buttons_frame, 
+                  text="📋 Hacer Encuesta", 
+                  style="Primary.TButton", 
+                  command=self.show_survey).pack(side="left", padx=(0, 10))
+
+        ttk.Button(buttons_frame, 
+                  text="👤 Registrarse", 
+                  style="Secondary.TButton", 
+                  command=self.show_registro).pack(side="left")
 
     def show_detector(self):
         try:
@@ -242,7 +547,7 @@ class EmotionDashboard:
 
     def iniciar(self):
         try:
-            self.status_label.config(text="Ejecutando", fg="lime")
+            self.status_label.config(text="🟢 Sistema Activo", fg="#22c55e")
             self.show_detector()
             if hasattr(self, 'detector'):
                 self.detector.iniciar()
@@ -255,7 +560,7 @@ class EmotionDashboard:
 
     def detener(self):
         try:
-            self.status_label.config(text="Detenido", fg="yellow")
+            self.status_label.config(text="🔴 Sistema Detenido", fg="#fbbf24")
             if hasattr(self, 'detector'):
                 self.detector.detener()
                 logger.info("Detector detenido correctamente")
